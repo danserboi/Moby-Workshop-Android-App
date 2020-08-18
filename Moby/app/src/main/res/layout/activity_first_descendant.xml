@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstDescendantActivity">
+
+    <Button
+        android:id="@+id/sibling_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_go_to_sibling"
+        android:drawableLeft="@drawable/ic_go_to_sibling"
+        android:onClick="goToSiblingActivity"
+        android:text="@string/go_to_sibling_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/ButtonsStyle" />
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/nothing_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/i_do_nothing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sibling_button"
+        style="@style/ButtonsStyle"/>
+</android.support.constraint.ConstraintLayout>

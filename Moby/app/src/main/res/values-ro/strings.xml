@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Moby</string>
+    <string name="navigation_drawer_open">Deschide sertarul de navigare</string>
+    <string name="navigation_drawer_close">Inchide sertarul de navigare</string>
+    <string name="nav_header_desc">Antet de navigare</string>
+    <string name="action_settings">Setări</string>
+
+    <string name="start_descendant_1">Deschide Descendent 1</string>
+    <string name="start_descendant_2">Deschide Descendent 2</string>
+    <string name="external_activities">Activități Externe</string>
+    <string name="start_google_maps">Deschide Hărți Google</string>
+    <string name="information">Informații</string>
+    <string name="toast">Toast</string>
+    <string name="dialog_message">Aveți grijă ce alegeți, oameni buni.</string>
+    <string name="first_rb">Primul RB</string>
+    <string name="second_rb">Al doilea RB</string>
+    <string name="third_rb">Al treilea RB</string>
+    <string name="first_cb">Primul CB</string>
+    <string name="second_cb">Al doilea CB</string>
+    <string name="enter_text_here">Introduceți aici textul!</string>
+    <string name="save">Salvați</string>
+    <string name="go_to_sibling_activity">Duceți-vă Către Activitatea Înfrățită</string>
+    <string name="i_do_nothing">Nu Fac Nimic</string>
+    <string name="pressed_ok">Ați apăsat OK</string>
+    <string name="pressed_cancel">Ați anulat</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Anulați</string>
+    <string name="surprise">Surpriză !</string>
+    <string name="dismiss">Revocă</string>
+</resources>

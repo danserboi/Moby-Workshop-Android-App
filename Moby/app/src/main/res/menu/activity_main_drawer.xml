@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_desc"
+            android:icon="@drawable/ic_eco"
+            android:title="@string/start_descendant_1" />
+        <item
+            android:id="@+id/nav_second_desc"
+            android:icon="@drawable/ic_casino"
+            android:title="@string/start_descendant_2" />
+    </group>
+
+    <item android:title="@string/external_activities">
+        <menu>
+            <item
+                android:id="@+id/nav_maps"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/start_google_maps" />
+        </menu>
+    </item>
+</menu>
